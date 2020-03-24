@@ -1,0 +1,282 @@
+/*Developer by Guilherme Rodrigues guilherme-batista2011@live.com  brasil*/
+
+*{
+  margin:0;
+  padding:0;
+}
+/*div father*/
+.pai{
+  position:relative;
+  width:450px;
+  height:500px;
+      margin: 0 38%;
+}
+/*hair*/
+.cabelo{
+  width:100px;
+  height:100px;
+  border-radius:100%;
+    border:solid 1.5px black;
+  position:absolute;
+  left:28%;
+  z-index:-50;
+  top:-30px;
+}
+.cabelo2{
+  width:100px;
+  height:100px;
+  border-radius:100%;
+    border:solid 1.5px black;
+  position:absolute;
+  left:%;
+  z-index:-1500;
+  top:20px;
+}
+/*head*/
+.cabeca{
+  width:245px;
+  height:500px;
+  background:#fed61e;
+  border-radius:50%;
+  border:solid black 6px;
+  margin:11%;
+   border-top-left-radius:100px;
+    border-top-right-radius:100px;
+  border-bottom-left-radius:100px;
+    border-bottom-right-radius:100px;
+ 
+}
+/*eyes*/
+.olho1{
+  width:100px;
+  height:110px;
+  background:white;
+  border-radius:50%;
+  padding:11px;
+  border:solid black 4px;
+  display:flex;
+  flex-direction:row;
+  position:absolute;
+  top:30%;
+  left:36px;
+  z-index:100;
+-webkit-animation: eyes 3s infinite step-start 0s;  
+     box-shadow: 1px 10px 5px -4px #3f3f3f61;
+}
+.olho2{
+  width:100px;
+  height:110px;
+  background:white;
+  border-radius:50%;
+  padding:11px;
+  border:solid black 4px;
+  display:flex;
+  flex-direction:row;
+  position:absolute;
+  top:30%;
+  right:125px;
+  -webkit-animation: eyes 3s infinite step-start 0s;
+  box-shadow: 1px 10px 5px -4px #3f3f3f61;
+}
+/*eyelashes*/
+.cilios{
+   border-bottom: 4px solid black;
+    border-radius: 50%;
+    bottom: 10px;
+    height: 80px;
+    left: 78%;
+    margin: 0 0 0 -95px;
+    position: absolute;
+    width: 122px;
+    z-index: 8;
+    top:15%;  
+   -webkit-animation: cilios 3s infinite step-start 0s; 
+}
+.iris{
+  width:20px;
+  height:20px;
+  background:black;
+  border-radius:50%;
+   display:flex;
+ position:relative;
+  top:40%;
+  left:40%;
+   -webkit-animation: iris 3s infinite step-start 0s; 
+  
+  
+}
+/*mouth*/
+.boca{
+  width:280px;
+  height:200px;
+  background:#d3a64b;
+   border-radius:50%;
+  margin-top:115%;
+  margin-left:-8%;
+  border:solid black 5px;
+       box-shadow: 1px 10px 5px -4px #3f3f3f61;
+}
+/*lip*/
+.labio{
+   border-bottom: 8px solid black;
+    border-radius: 50%;
+    bottom: 10px;
+    height: 113px;
+    left: 50%;
+    margin: 0 0 0 -95px;
+    position: absolute;
+    width: 190px;
+    z-index: 8;
+    position:relative;
+    top:10%;  
+}
+
+.labio2{
+   border-bottom: 8px solid black;
+    border-radius: 50%;
+    bottom: 10px;
+    height: 10px;
+    left: 50%;
+    margin: 0 0 0 -95px;
+    position: absolute;
+    width: 70px;
+    z-index: 8;
+    position:relative;
+    top:120%;
+    left:83%;
+
+}
+.labio3{
+   border-bottom: 8px solid black;
+    border-radius: 50%;
+    bottom: 10px;
+    left: 50%;
+    margin: 0 0 0 -95px;
+    position: absolute;
+    width: 40px;
+   height: 40px;
+    z-index: 8;
+    position:relative;
+    top:30%;  
+  left:46%;
+  transform: rotate(120deg);
+}
+
+.labio4{
+   border-bottom: 8px solid black;
+    border-radius: 50%;
+    bottom: 10px;
+    left: 50%;
+    margin: 0 0 0 -95px;
+    position: absolute;
+     width: 40px;
+     height: 40px;
+    z-index: 8;
+    position:relative;
+    top:-5px;
+  left:135%;
+  transform: rotate(220deg);
+}
+/*nose*/
+.nariz{
+  width:70px;
+  height:60px;
+  background:#fed61f;
+  border:3px solid black;
+  position:absolute;
+   border-radius:80%; 
+  top:49%;
+  left:31.6%;
+  z-index:100;
+ box-shadow: -2px 14px 5px -4px rgba(138, 83, 19, 0.38);
+   
+  
+}
+/*ear*/
+.orelha1{
+    width: 90px;
+	height: 70px;
+	border-radius:100%;
+	background-color: #fed61e;
+   border:7px solid black;
+  position:absolute;
+    top:250px;
+  z-index:-120;
+  left:33px;
+}
+
+.orelha2{
+    width: 90px;
+	height: 70px;
+	border-radius:100%;
+	background-color: #fed61e;
+   border:7px solid black;
+  position:absolute;
+  top:250px;
+  z-index:-120;
+  right:127px;
+}
+/*shadow ear*/
+.sombra-nariz{
+  width:30px;
+  height:20px;
+  background:#fed61e;
+  position:relative;
+  left:20px;
+  top:-8px;
+  border-radius:50%;
+  z-index;-15;
+  
+}
+footer{
+  background:black;
+  height:200px;
+  width:100%;
+      display: flex;
+    justify-content: center;
+	align-items:center;
+	margin-top: 38px;
+  
+}
+
+footer p{
+  color:white;
+  font-family:'sans-serif';
+  font-size:30px;
+  text-align:center;
+}
+/*Animation blink*/
+@-webkit-keyframes iris {
+        0%, 100% {
+                opacity: 0;
+        }
+        15%, 95% {
+                opacity: 1;
+        }
+}
+
+
+@-webkit-keyframes eyes {
+   0%, 100% {
+        background:#fed61e;
+        
+        z-index:15;
+   }
+   15%, 95% {
+        background:WHITE; 
+        
+   }
+}
+
+
+@keyframes cilios {
+  0%, 100% {
+                opacity: 1;
+   
+        }
+        15%, 95% {
+                opacity: 0;
+          
+        }
+}
+
